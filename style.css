@@ -1,9 +1,9 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   margin: 0;
-  background-color:;
+  background-color: ;
   color: #221D23;
 }
 .title {
@@ -56,7 +56,7 @@ li a {
   color: #EAD9C3;
 }
 li a:hover {
-  background-color:#221D23;
+  background-color: #221D23;
 }
 .active {
   background-color: #221D23;
@@ -97,13 +97,18 @@ li a:hover {
   background-color: #E1E0E1;
   padding: 15px 15px 15px 15px;
   margin: 15px 7px 15px 7px;
-  flex-grow: 1;
+  flax-shrink: 1;
+  width: 400px;
+  max-width: 100%;
+  
+  
 }
 .cropped {
-  width: 200px;
-  height: 300px;
+  width: 400px;
+  height: 600px;
   object-fit: cover;
   object-position: 0px 0px;
+  max-width: 100%;
 }
 .top-image {
   image: no-repeat top center fixed;
